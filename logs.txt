@@ -1,0 +1,18 @@
+[07/05/24]
+07:50 - Objetivo inicial: conectar-se a uma rede wi-fi e interagir com uma API.
+Exemplo: https://wokwi.com/projects/342032431249883731
+
+13:00 - Rede wi-fi conectada com indicativos de led vermelho e verde para desconectado e conectado
+Documentação wifi: https://docs.wokwi.com/pt-BR/guides/esp32-wifi
+
+[08/05/24]
+09:36 - Adicionado sensor de distância ultrassônico
+
+16:48 - Adicionado LCD com algumas "emoções". Tentando implementar uma emoção "iddle", quando há muito
+tempo sem interação (20 segundos para os testes) mas ainda não funciona direito.
+Recursos(IMG p/ CPP): http://javl.github.io/image2cpp/
+(recurso para conversão de imagens em hex cpp)
+
+[09/05/24]
+07:05 - Bug de animação iddle corrigido com o método booleano "detectMotion" no local principal do
+programa (sketch.ino).
